@@ -51,13 +51,13 @@ while True:
             plt.xticks(rotation=45)
             plt.tight_layout()
             # Adicionando a grade apenas no eixo y com uma cor suave
-            ax.yaxis.grid(True, color='lightgrey', linewidth=0.5)
+            ax.yaxis.grid(True, color='lightgrey', linewidth=0.7)
             ax.xaxis.grid(False)
             # Configurações de estilo do gráfico
             # ax.set_xlabel("Horário")
             # ax.set_ylabel("Valores")
             
-            # Configuração do eixo y para incrementos de 5, iniciando do 0
+            # Configuração do eixo y para incrementos de 2.5, iniciando do 0
             ax.yaxis.set_major_locator(MultipleLocator(2.5))
             ax.set_ylim(bottom=0)
             # ax.set_title("Monitoramento de Temperatura e Energia ao Longo do Dia")
