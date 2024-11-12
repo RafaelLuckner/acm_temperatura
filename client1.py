@@ -56,7 +56,7 @@ def client():
         data = s.recv(1024)
 
         print('Enviado:', data.decode('utf-8'))
-        time.sleep(2)
+        time.sleep(4)
       break
 
 hostname = socket.gethostname()
